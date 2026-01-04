@@ -5,7 +5,7 @@ import numpy as np
 
 def clean_data(file_path):
     # Load the dataset
-    df = pd.read_csv(file_path)
+    df = pd.read_csv(file_path, index_col=0)
     
     # Inspect the dataset for missing values
     missing_values = df.isnull().sum().sum()

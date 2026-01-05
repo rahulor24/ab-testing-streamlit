@@ -10,6 +10,7 @@ This project analyzes user conversion data using A/B testing and visualizes insi
 ## How to Run
 ```bash
 streamlit run st.py
+```
 
 ## Click on the link below to see the final deployed interactive UI
 [Streamlit UI](https://rahul-ab-testing.streamlit.app/)
